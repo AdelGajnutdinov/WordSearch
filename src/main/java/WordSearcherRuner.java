@@ -8,7 +8,7 @@ public class WordSearcherRuner {
         BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("input1.txt")));
         PrintWriter writer = new PrintWriter("out1.txt");
 
-        WordSearcher ws = new WordSearcher("for", reader, writer);
+        WordSearcher ws = new WordSearcher("time", reader, writer);
         ws.run();
         reader.close();
         writer.close();

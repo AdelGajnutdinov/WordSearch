@@ -15,7 +15,8 @@ public class WordSearcher {
 
     int count = 0;//how many times word was found
 
-    double temp = 0;
+    double temp = 0;//position of word
+
     /**
      * Constructor
      * @param string what word we need to search
@@ -35,7 +36,7 @@ public class WordSearcher {
     public void run() throws IOException {
         read();
         if (count == 0)
-            writer.println("Word is not found!");
+            writer.println("Word \"" + word + "\" is not found!");
     }
 
     private void read() throws IOException {
@@ -48,12 +49,14 @@ public class WordSearcher {
 
     private void search(String word, String s) {
         for (int i = 0; i < s.length() - word.length(); i++) {
-            if (s.substring(i, i + word.length()).equals(word)) {
-                writer.println("Word is found on the " + (i + temp) + " position!");
+            if ((s.substring(i, i + word.length()).equals(word))
+                && (s.charAt(i-1) == ' ')
+                && (s.charAt(i + word.length()) == ' ')) {
+                writer.println("Word \"" + this.word + "\" is found on the " + (i + temp + 1) + " position!");
                 count++;
             }
         }
-        temp += s.length();
+        temp += s.length() + 1;
     }
 
 }

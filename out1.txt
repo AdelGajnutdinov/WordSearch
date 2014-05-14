@@ -1,12 +1,7 @@
-Word is found on the 447.0 position!
-Word is found on the 456.0 position!
-Word is found on the 845.0 position!
-Word is found on the 928.0 position!
-Word is found on the 1188.0 position!
-Word is found on the 2213.0 position!
-Word is found on the 3661.0 position!
-Word is found on the 3677.0 position!
-Word is found on the 3751.0 position!
-Word is found on the 3993.0 position!
-Word is found on the 4010.0 position!
-Word is found on the 4261.0 position!
+Word "time" is found on the 398.0 position!
+Word "time" is found on the 613.0 position!
+Word "time" is found on the 1084.0 position!
+Word "time" is found on the 1561.0 position!
+Word "time" is found on the 2894.0 position!
+Word "time" is found on the 3079.0 position!
+Word "time" is found on the 3388.0 position!
