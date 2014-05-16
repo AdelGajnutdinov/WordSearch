@@ -49,9 +49,9 @@ public class WordSearcher {
 
     private void search(String word, String s) {
         for (int i = 0; i < s.length() - word.length(); i++) {
-            if ((s.substring(i, i + word.length()).equals(word))
-                && (s.charAt(i-1) == ' ')
-                && (s.charAt(i + word.length()) == ' ')) {
+            if ((s.substring(i, i + word.length()).equals(word))) {
+                //&& (s.charAt(i-1) == ' ')
+                //&& (s.charAt(i + word.length()) == ' ')) {
                 writer.println("Word \"" + this.word + "\" is found on the " + (i + temp + 1) + " position!");
                 count++;
             }
