@@ -76,7 +76,7 @@
       <file leaf-file-name="WordSearcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WordSearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="35" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1156">
+            <state line="38" column="35" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,7 +96,7 @@
       <file leaf-file-name="WordSearcherTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WordSearcherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.34634975" vertical-offset="0" max-vertical-offset="1003">
+            <state line="22" column="17" selection-start="631" selection-end="631" vertical-scroll-proportion="0.028862478" vertical-offset="306" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
@@ -105,7 +105,7 @@
       <file leaf-file-name="FileCompare.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FileCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="9" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="901">
+            <state line="40" column="9" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="901">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/main/java/WordSearcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/WordSearcherRuner.java" />
         <option value="$PROJECT_DIR$/src/main/java/FileCompare.java" />
+        <option value="$PROJECT_DIR$/testout3.txt" />
         <option value="$PROJECT_DIR$/src/test/java/WordSearcherTest.java" />
       </list>
     </option>
@@ -316,7 +317,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -472,7 +479,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -614,20 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="463">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/jre/lib/rt.jar!/java/io/BufferedReader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="0" selection-start="1830" selection-end="1830" vertical-scroll-proportion="0.75" vertical-offset="573" max-vertical-offset="918">
@@ -642,9 +635,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out3.txt">
+    <entry file="file://$PROJECT_DIR$/out1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="6" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <folding />
         </state>
       </provider>
@@ -656,12 +649,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FileCompare.java">
+    <entry file="file://$PROJECT_DIR$/out2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="9" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="901">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="6" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.2642487" vertical-offset="0" max-vertical-offset="386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="6" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testout2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordSearcherRuner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="493">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,16 +686,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordSearcherRuner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FileCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="493">
-          <folding />
+        <state line="40" column="9" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="901">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WordSearcherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.34634975" vertical-offset="0" max-vertical-offset="1003">
+        <state line="22" column="17" selection-start="631" selection-end="631" vertical-scroll-proportion="0.028862478" vertical-offset="306" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
